@@ -1,0 +1,11 @@
+<h1>Create a New Post</h1>
+
+<form method="post">
+  {% csrf_token %}
+  <input type="text" name="title" placeholder="Title" required><br><br>
+  <textarea name="body" placeholder="Write something..." required></textarea><br><br>
+  <button type="submit">Post</button>
+</form>
+
+<br>
+<a href="{% url 'home' %}">← Back to Home</a>
