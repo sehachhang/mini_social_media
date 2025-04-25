@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+*.log
+
+# Django
+db.sqlite3
+*.sqlite3
+*.mysql
+*.sql
+media/
+staticfiles/
+
+# Migrations (optional - keep if you want)
+**/migrations/*.py[cod]
+!**/migrations/__init__.py

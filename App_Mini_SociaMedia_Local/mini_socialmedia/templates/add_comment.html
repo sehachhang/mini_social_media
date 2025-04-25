@@ -1,0 +1,10 @@
+<h1>Add Comment to: {{ post.title }}</h1>
+
+<form method="post">
+  {% csrf_token %}
+  <textarea name="description" placeholder="Write your comment..." required></textarea><br><br>
+  <button type="submit">Submit Comment</button>
+</form>
+
+<br>
+<a href="{% url 'home' %}">← Back to Home</a>

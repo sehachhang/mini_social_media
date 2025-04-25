@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container mt-3" style="max-width: 300px;">
+  <h2 class="mb-4 text-center">Login</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary w-50">Login</button>
+  </form>
+  <p class="mb-4 text-center mt-3">
+    <a href="{% url 'password_reset' %}">Forgot password?</a>
+  </p>
+</div>
+{% endblock %}
