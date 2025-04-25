@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=D:\RoboTech Academy Siemreap\Advance Python with DJango\Python_Project\Social_Media_Project\App_social_media
+=======
+set VIRTUAL_ENV=D:\RoboTech Academy Siemreap\Advance Python with DJango\Python_Project\Social_Media_Project\App_Social_Media_Local\App_social_media
+>>>>>>> 9c429df4b4b7b95ab0fda764f1f0525f1dcf57f6
 
 if not defined PROMPT set PROMPT=$P$G
 
